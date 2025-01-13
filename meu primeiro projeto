@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO46fib8XilfsgbswFxb8Cv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jums28/Julianam28/blob/main/meu%20primeiro%20projeto\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "B8Tha7xOGXVy",
+        "outputId": "f89f102d-ccd5-413b-b125-f16d3f388fc2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu nomeJuliana\n",
+            "Juliana\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = input('Digite seu nome') #receber nome\n",
+        "print(nome)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Modulo Principal\n",
+        "if __name__ == '__main__':\n",
+        "  exibir_nome()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4AIn-GLKR52B",
+        "outputId": "f355cfe6-3ca7-4214-9c89-c3e038e7d8ca"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu nomeJuliana \n",
+            "Juliana \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Função para exibir o nome\n",
+        "def exibir_nome():\n",
+        "  nome = input('Digite seu nome')  #Receba nome\n",
+        "  print(nome)"
+      ],
+      "metadata": {
+        "id": "dTrVlT9DZEfI"
+      },
+      "execution_count": 48,
+      "outputs": []
+    }
+  ]
+}
